@@ -69,7 +69,8 @@ Project is: _in progress_
 
 Room for improvement:
 
-- Data should be taken by app not created by download file .json from   [Sportradar](https://developer.sportradar.com/)
+- Step 1 and 2 - data should be taken by app not created by download file .json from   [Sportradar](https://developer.sportradar.com/).
+- Step 3 data fetched partly from  [Sportradar](https://developer.sportradar.com/).
 - As completely non-artistic soul UX/UI should be correct.
 
 
@@ -80,10 +81,9 @@ To do:
 
 ## Acknowledgements
 
-Give credit here.
-
-
-- Many thanks to [@flynerdpl](https://www.flynerd.pl/) - creator of README.md template.
+### Many thanks to
+- [@flynerdpl](https://www.flynerd.pl/) - creator of README.md template.
+- [Eghizio]( https://github.com/Eghizio)- helped me a lot with resolving problems with logic issues and show great possibilities of React.js and Next.js.
 
 ## Contact
 
