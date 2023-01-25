@@ -9,7 +9,6 @@ import { TableTitle } from '../components/table/TableTitle'
 import { TableRow } from '../components/table/TableRow'
 
 const Home = ({ stepOne }: InferGetStaticPropsType<typeof getStaticProps>) => {
-  console.log('stepOneUrl', stepOneUrl, 'stepOne', stepOne)
 
   return (
 
@@ -33,7 +32,6 @@ const Home = ({ stepOne }: InferGetStaticPropsType<typeof getStaticProps>) => {
 export const getStaticProps = async () => {
   const result = await fetch(`${stepOneUrl}`)
   const stepOne: StepOne = await result.json()
-  console.log('stepOneProps', stepOne)
   return {
     props: {
       stepOne,
